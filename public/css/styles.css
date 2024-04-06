@@ -1,0 +1,147 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+body {
+  background-color: #f8f9fa;
+}
+
+.login-container {
+  margin-top: 100px;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  animation: slide-in 1s ease forwards;
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-content{
+  background-image: url("backimg.jpeg") ;
+  background-size: contain;
+}
+
+.navitems{
+  display: flex;
+  margin-right: 30px;
+  justify-content: space-between;
+  
+}
+.navitems a{
+  margin-right: 35px;
+}
+
+
+
+.top{
+  display: flex;
+  width: 100%;
+  align-content: space-between;
+  justify-content: space-between;
+  
+}
+.stats{
+  margin-right: 150px;
+  
+  width: 200px;
+  height: 125px;
+  
+  font-size: 20px;
+  color: white;
+
+}
+.play:hover{
+  background-color: gray;
+  border: 6px solid black;
+  color: white;
+  border-radius: 40%;
+
+
+  
+}
+.play{
+  width: 140px;
+  height: 70px;
+  font-size: 40px;
+  
+  
+  transition: width 2s;
+  
+}
+img{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 630px;
+  margin-top: 70px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  height: 120px;
+  margin-bottom: 10px;
+}
+#logo{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  top: -70px;
+  
+
+}
+
+.login{
+  position: relative;
+  top: -35px;
+  right: 60px;
+}
+li:hover{
+  color: aqua;
+}
+li{
+  font-size: 30px;
+}
+#avatar{
+  position: relative;
+  top: -100px;
+  left: 530px;
+}
+p{
+  margin-left: 50px;
+  color: white;
+  font-style: italic;
+}
+#myPhoto {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 0px;
+}
